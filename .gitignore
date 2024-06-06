@@ -34,6 +34,21 @@ yarn-error.log
 testem.log
 /typings
 
+# .gitignore
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+
 # System Files
 .DS_Store
 Thumbs.db
